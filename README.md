@@ -1,7 +1,7 @@
 <p align="center">
  <img width="180px" src="https://i.ibb.co/Qn1W6cP/image.png" align="center"/>
  <h2 align="center">TheMystic-Bot-MD</h2>
- <p align="center">Un chatbot automatizado para WhatsApp basado en Node.js, que permite realizar múltiples funciones y personalizaciones en la plataforma.</p>
+ <p align="center">Un bot para la plataforma de WhatsApp automatizado, basado especialmente en Node.js, que permite realizar múltiples funciones y personalizaciones en la plataforma.</p>
 </p>
 
 <p align="center">
@@ -26,11 +26,11 @@
 </p>
 
 <p align="center">
-  <a href="https://api.whatsapp.com/send?phone=+5219992843881&text=&text=.menu">Demo</a>
+  <a href="https://api.whatsapp.com/send?phone=+5219992843881&text=&text=.menu">Demostración</a>
   ·
-  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues/new?assignees=&labels=Bug">Reportar un Bug</a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues/new?assignees=&labels=Bug">Reportar un error</a>
   ·
-  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues/new?assignees=&labels=Enhancement">Solicitar una Característica</a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues/new?assignees=&labels=Enhancement">Solicitar una característica</a>
 </p>
 
 <!-- <p align="center">
@@ -39,13 +39,13 @@
   <a href="/src/docs/README_pt-br.md">Português</a>
 </p> -->
 
-<p align="center">¡Ayuda a mantener el proyecto activo con tu <a href="https://www.paypal.me/BrunoSob">donación</a> y contribuye a mejorar las funciones del chatbot para todos!</p>
+<p align="center">¡Ayuda a mantener nuestro proyecto activo con tu <a href="https://www.paypal.me/BrunoSob">donación</a> y contribuye la mejora de las funciones del bot para todos!</p>
 
 # Despliegue, Soporte y Comunidad
-
 - [Opciones de Despliegue](#opciones-de-despliegue)
   - [Despliegue en Cafirexos](#despliegue-en-cafirexos)
   - [Despliegue en BoxMineWorld](#despliegue-en-boxmineworld)
+  - [Despliegue en SkyUltraPlus](#despliegue-en-skyultraplus)
   - [Despliegue en Otros](#despliegue-en-otros)
 - [Soporte y Comunidad](#soporte-y-comunidad)
   - [Comunidades de Ayuda](#guía-de-uso)
@@ -53,16 +53,15 @@
   - [Agradecimientos](#agradecimientos)
   - [Desarollador Principal](#desarollador-principal)
 
+> ◇ **Nota:** estamos conscientes de que **existen** diferentes lugares que **no son oficiales** o **no tienen relación ni participación** de nuestro proyecto, para mantener la **seguridad** de nuestros **usuarios**, compartimos los lugares **oficiales** donde podrás ser uso de **nuestro bot**, **recibir asistencia**, entre otros términos de **utilidad o funcionalidad** del bot.
+
 # Avisos Importantes
 
 > [!IMPORTANT]\
-> Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
+> Este proyecto **no está afiliado, respaldado ni asociado de ninguna manera** con la plataforma de `WhatsApp`. la plataforma de `WhatsApp` es una subsidiaria registrada por `Meta Platforms Inc.`. Este bot es un **desarrollo independiente** y **no tiene ninguna relación oficial con la compañía**.
 
 > [!IMPORTANT]\
-> **No** se asegura que este **proyecto siga funcionando al 100% debido** a cuestiones de tiempo personales de @BrunoSobrino, por lo cual **el proyecto esta en manos de colaboradores** y usuarios que deseen aportar actualizaciones.
-
-> [!WARNING]\
-> **Este proyecto no ofrece soporte oficial para su uso en Termux.** Termux es una aplicación de terminal para Android y, aunque puede ser utilizada para ejecutar diversos programas, **este proyecto no está diseñado ni probado específicamente para funcionar en Termux**. Por lo tanto, **no garantizamos compatibilidad ni soporte técnico en este entorno**.
+> se asegura que este **proyecto no funcione de manera correcta** debido a cuestiones de tiempo personales de [Bruno Sobrino](https://github.com/BrunoSobrino), por lo cual **este proyecto está en desarrollo por parte de los colaboradores** y usuarios que deseen aportar **actualizaciones**.
 
 
 # Opciones de despliegue
@@ -76,15 +75,19 @@
 <details>
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-- **Sitio Web:** [cafirexos.com](https://cafirexos.com)
-- **Área de Clientes:** [clientes.cafirexos.com](https://clientes.cafirexos.com)
-- **Panel de Control:** [panel.cafirexos.com](https://panel.cafirexos.com)
-- **Estado de los Servicios:** [estado.cafirexos.com](https://estado.cafirexos.com)
-- **Documentación:** [docs.cafirexos.com](https://docs.cafirexos.com)
-- **Canal de WhatsApp:** [¡Únete aquí!](https://cafirexos.com/whatsapp)
-- **Comunidad de WhatsApp:** [¡Únete aquí!](https://cafirexos.com/comunidad)
+- [Sitio web](https://cafirexos.com)
+- [Área de clientes](https://cafirexos.com/clientarea.php)
+- [Panel de control](https://panel.cafirexos.com)
+- [Base de conocimientos](https://cafirexos.com/knowledgebase)
+- [Estado de los servicios](https://estado.cafirexos.com)
+- [Canal de WhatsApp](https://cafirexos.com/whatsapp/canal)
+- [Comunidad de WhatsApp](https://cafirexos.com/whatsapp/comunidad)
+- [Soporte](https://cafirexos.com/submitticket.php)
 
 </details>
+
+> [!IMPORTANT]\
+> El registro de usuarios solo es posible al comprar uno de nuestros productos en la [tienda](https://cafirexos.com/store).
 
 ## Despliegue en BoxMineWorld
 
@@ -103,7 +106,28 @@
 
 </details>
 
-## Despliegue en Otros
+## Despliegue en SkyUltraPlus
+
+<a href="https://skyultraplus.com">
+  <img width="180px" src="https://qu.ax/dYZxE.jpg"/>
+</a>
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
+
+- **Pagina Oficial:** [`aqui`](https://skyultraplus.com)
+- **Tutorial:** [Aquí](https://youtube.com/@Sky-Ultra-Plus)
+- **Dashboard:** [Aquí](https://dash.skyultraplus.com)
+- **Panel:** [Aquí](https://panel.skyultraplus.com)
+- **Estado de servicios:** [Aquí](https://estado.skyultraplus.com)
+- **Canal de WhatsApp:** [Aquí](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+- **Comunidad:** [Aquí](https://chat.whatsapp.com/E6iWpvGuJ8zJNPbN3zOr0D)
+- **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
+- **Discord:** [SkyUltraPlus](https://discord.gg/Ph4eWsZ8)
+
+</details>
+
+## Despliegue en otras plataformas
 
 En esta sección encontrarás **botones de despliegue** que te permitirán implementar el proyecto en distintos entornos con un solo clic. Este proceso es **automático** y no requiere configuraciones manuales adicionales. Simplemente selecciona la plataforma deseada y haz clic en el botón correspondiente para **desplegar** tu proyecto de manera rápida y sencilla.
 
@@ -113,22 +137,26 @@ En esta sección encontrarás **botones de despliegue** que te permitirán imple
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&name=themystic-bot-md&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
 [![Run on Repl.it](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+[![Deploy to Termux](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://brunosobrino.github.io/TheMystic-Bot-MD/)
+[![Deploy to Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux&logoColor=white)](https://brunosobrino.github.io/TheMystic-Bot-MD/)
+[![Deploy to Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://brunosobrino.github.io/TheMystic-Bot-MD/)
+
 <!-- [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BrunoSobrino/TheMystic-Bot-MD) -->
 
 # Soporte y Comunidad
 
-## Comunidades de Ayuda
+## Comunidades de Asistencia
 
-En este espacio podrás encontrar diversas **comunidades de ayuda** donde podrás **resolver tus dudas**, **compartir experiencias** y **colaborar** con otros usuarios. Únete a la comunidad que mejor se adapte a tus necesidades y forma parte de un **entorno de apoyo mutuo**.
+En este espacio podrás encontrar diversas **comunidades de asistencia** donde podrás **resolver tus dudas**, **compartir experiencias** y **colaborar** con otros usuarios. Únete a la comunidad que mejor se adapte a tus necesidades y forma parte de un **entorno de apoyo mutuo**.
 
 <table>
 
-| RRSS | Tipo | Idioma | Enlace |
+| Plataforma | Tipo | Idioma | Enlace |
 | --- | --- | --- |--- |
 | WhatsApp | Canal | Español | [¡Únete aquí!](https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y) |
 | WhatsApp | Grupo | Español | [¡Únete aquí!](https://chat.whatsapp.com/Daa3Fe4A9JeFpRI2QtBS4s) |
 | WhatsApp | Group | English | [¡Join here!](https://chat.whatsapp.com/HTatrQokqODKx9eem0CKuY) |
-| WhatsApp | Grupo | Português | [¡Junte-se aqui!](https://chat.whatsapp.com/J8tFq87Ia0jEnx20NvCQxN) |
+| WhatsApp | Grupo | Português | [¡Junte-se aqui!](https://chat.whatsapp.com/IqBnWyY0ikZ8BumuvleCzW) |
 
 </table>
 

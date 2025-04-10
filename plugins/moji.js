@@ -6,8 +6,7 @@ const handler = async (m, { text }) => {
   if (!text) throw "*🌅 Ingresa un emoji.*";
   //if (!emj.test(text)) throw "*🍟 Ingresa un emoji valido.*"
   try {
-    const res = await axios.get(
-      "https://deliriusapi-official.vercel.app/tools/mojito",
+    const res = await axios.get(global.BASE_API_DELIRIUS + "/tools/mojito",
       {
         params: { emoji: text },
       },
