@@ -100,15 +100,16 @@ const handler = async (m, {conn}) => {
   // conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Armas lista para la Caza!!','Probando Armas 🔫 💣 🪓 🏹','CARROS PARA LA CAZA!! 🚗 🏍️ 🚜','TIEMPO BUENO PARA LA CAZA 🧤'].getRandom()}*`, wm, null, null, null, null, null, [
   // [null, null]], null)}, 15000)
 
+  const mentionedJid = await m?.mentionedJid || null;
   setTimeout(() => {
-    conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${[tradutor.texto4[0], tradutor.texto4[1], tradutor.texto4[2], tradutor.texto4[3]].getRandom()}*`, m, m.mentionedJid ? {mentions: [m.sender]} : {});
+    conn.reply(m.chat, `@${m.sender.split('@s.whatsapp.net')[0]} *${[tradutor.texto4[0], tradutor.texto4[1], tradutor.texto4[2], tradutor.texto4[3]].getRandom()}*`, m, mentionedJid ? {mentions: [m.sender]} : {});
   }, 0);
   // conn.sendHydrated(m.chat, `${conn.getName(m.sender)} *${['Buscando implementos de caza...','Alistando todo para la caza!!','Estableciendo Lugar de la Caza...','PREPARANDO LUGAR DE CAZA!!'].getRandom()}*`, wm, null, null, null, null, null, [
   // [null, null]], null)}, 0)
   user.lastberburu = new Date * 1;
 };
 handler.help = ['berburu'];
-handler.tags = ['rpg'];
+handler.tags = ['xp'];
 handler.command = /^(hunt|berburu|caza(r)?)$/i;
 handler.group = true;
 export default handler;

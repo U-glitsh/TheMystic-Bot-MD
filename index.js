@@ -9,12 +9,12 @@ import chalk from 'chalk';
 import fs from 'fs'; 
 import './config.js';
 
-const { PHONENUMBER_MCC } = await import('baileys');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { say } = cfonts;
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 let isRunning = false;
+let childProcess = null;
 
 const question = (texto) => new Promise((resolver) => rl.question(texto, resolver));
 
@@ -47,8 +47,8 @@ function formatearNumeroTelefono(numero) {
 }
 
 function esNumeroValido(numeroTelefono) {
-  const numeroSinSigno = numeroTelefono.replace('+', '');
-  return Object.keys(PHONENUMBER_MCC).some(codigo => numeroSinSigno.startsWith(codigo));
+  const regex = /^\+\d{7,15}$/;
+  return regex.test(numeroTelefono);
 }
 
 async function start(file) {
@@ -72,69 +72,73 @@ async function start(file) {
   if (verificarCredsJson()) {
     const args = [join(__dirname, file), ...process.argv.slice(2)];
     setupMaster({ exec: args[0], args: args.slice(1) });
-    const p = fork();
+    forkProcess(file);
     return;
   }
 
   const opcion = await question(chalk.yellowBright.bold('—◉ㅤSeleccione una opción (solo el numero):\n') + chalk.white.bold('1. Con código QR\n2. Con código de texto de 8 dígitos\n—> '));
 
-  let numeroTelefono = '';
   if (opcion === '2') {
     const phoneNumber = await question(chalk.yellowBright.bold('\n—◉ㅤEscriba su número de WhatsApp:\n') + chalk.white.bold('◉ㅤEjemplo: +5219992095479\n—> '));
-    numeroTelefono = formatearNumeroTelefono(phoneNumber);
+    const numeroTelefono = formatearNumeroTelefono(phoneNumber);
+    
     if (!esNumeroValido(numeroTelefono)) {
       console.log(chalk.bgRed(chalk.white.bold('[ ERROR ] Número inválido. Asegúrese de haber escrito su numero en formato internacional y haber comenzado con el código de país.\n—◉ㅤEjemplo:\n◉ +5219992095479\n')));
       process.exit(0);
     }
-    process.argv.push(numeroTelefono);
+    
+    process.argv.push('--phone=' + numeroTelefono);
+    process.argv.push('--method=code');
+  } else if (opcion === '1') {
+    process.argv.push('--method=qr');
   }
-
-  if (opcion === '1') {
-    process.argv.push('qr');
-  } else if (opcion === '2') {
-    process.argv.push('code');
-  }
-
+  
   const args = [join(__dirname, file), ...process.argv.slice(2)];
   setupMaster({ exec: args[0], args: args.slice(1) });
+  forkProcess(file);
+}
 
-  const p = fork();
+function forkProcess(file) {
+  childProcess = fork();
 
-  p.on('message', (data) => {
+  childProcess.on('message', (data) => {
     console.log(chalk.green.bold('—◉ㅤRECIBIDO:'), data);
     switch (data) {
       case 'reset':
-        p.process.kill();
+        console.log(chalk.yellow.bold('—◉ㅤSolicitud de reinicio recibida...'));
+        childProcess.removeAllListeners();
+        childProcess.kill('SIGTERM');
         isRunning = false;
-        start.apply(this, arguments);
+        setTimeout(() => start(file), 1000);
         break;
       case 'uptime':
-        p.send(process.uptime());
+        childProcess.send(process.uptime());
         break;
     }
   });
 
-  p.on('exit', (_, code) => {
+  childProcess.on('exit', (code, signal) => {
+    console.log(chalk.yellow.bold(`—◉ㅤProceso secundario terminado (${code || signal})`));
     isRunning = false;
-    console.error(chalk.red.bold('[ ERROR ] Ocurrió un error inesperado:'), code);
-    p.process.kill();
-    isRunning = false;
-    start.apply(this, arguments);
-    if (process.env.pm_id) {
-      process.exit(1);
-    } else {
-      process.exit();
+    childProcess = null;
+    
+    if (code !== 0 || signal === 'SIGTERM') {
+      console.log(chalk.yellow.bold('—◉ㅤReiniciando proceso...'));
+      setTimeout(() => start(file), 1000);
     }
   });
 
-  const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse());
-  if (!opts['test']) {
-    if (!rl.listenerCount()) {
-      rl.on('line', (line) => {
-        p.emit('message', line.trim());
-      });
-    }
+  const opts = yargs(process.argv.slice(2)).argv;
+  if (!opts.test) {
+    rl.on('line', (line) => {
+      childProcess.emit('message', line.trim());
+    });
   }
 }
 
-start('main.js');
+try {
+  start('main.js');
+} catch (error) {
+  console.error(chalk.red.bold('[ ERROR CRÍTICO ]:'), error);
+  process.exit(1);
+}

@@ -406,30 +406,24 @@
                 "▢ *Nota:* Este comando solo puede ser usado por el/los propietario(s) del bot."
             ],
             "texto24": [
-                "▢ *Opción:* 🤖",
-                "▢ *Comando:*",
-                "▢ *Descripción:* Se activa el modo 'Inteligencia Artificial' con ChatGPT en todos los chats privados.",
-                "▢ *Nota:* Este comando solo puede ser usado por el/los propietario(s) del bot."
-            ],
-            "texto25": [
                 "▢ *Opción:* ⏳",
                 "▢ *Comando:*",
                 "▢ *Descripción:* El Bot detecta cuando un usuario hace spam de comando y lo banea por 5 segundos y lo advierte.",
                 "▢ *Nota:* Este comando solo puede ser usado por el/los propietario(s) del bot."
             ],
-            "texto26": [
+            "texto25": [
                 "▢ *Opción:* 🤖",
                 "▢ *Comando:*",
-                "▢ *Descripción:* Activa o desactiva el uso del comando para sub bots ",
+                "▢ *Descripción:* Activa o desactiva el uso del comando para sub bots.",
                 "▢ *Nota:* Este comando solo puede ser usado por el/los propietario(s) del bot."
             ],
-            "texto27": [
+            "texto26": [
                 "▢ *Opción:* 💬",
                 "▢ *Comando:*",
                 "▢ *Descripción:* El Bot bloquerá a las personas que escriban al privado del Bot. ",
                 "▢ *Nota:* Este comando solo puede ser usado por el/los propietario(s) del bot."
             ],
-            "texto28": [
+            "texto27": [
                 "< FUNCIONES DEL BOT />",
                 "[ ℹ️ ] La opción",
                 "exitosamente para este"
@@ -2416,10 +2410,6 @@
             "texto2": "𝙷𝙴𝚈!! 𝙴𝚂𝚃𝙰𝚂 𝙷𝙰𝙲𝙸𝙴𝙽𝙳𝙾 𝚃𝚁𝙰𝙼𝙿𝙰",
             "texto3": "*[❗𝐈𝐍𝐅𝐎❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙽𝙾 𝙰𝙳𝙼𝙸𝚃𝙸𝙳𝙾, 𝚂𝙾𝙻𝙾 𝚂𝙴 𝙰𝙳𝙼𝙸𝚃𝙴𝙽 𝙽𝚄𝙼𝙴𝚁𝙾𝚂 𝚈 𝙻𝙾𝚂 𝚂𝙸𝙼𝙱𝙾𝙻𝙾𝚂 -, +, *, /, ×, ÷, π, e, (, )*"
         },
-        "herramientas_chatgpt_del": {
-            "texto1": "*[❗] 𝚂𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙾 𝙲𝙾𝙽 𝙴𝚇𝙸𝚃𝙾 𝙴𝙻 𝙷𝙸𝚂𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂 𝙴𝙽𝚃𝚁𝙴 𝚄𝚂𝚃𝙴𝙳 𝚈 𝙲𝙷𝙰𝚃𝙶𝙿𝚃 (𝙸𝙰)*\n\n*—◉ 𝚁𝙴𝙲𝚄𝙴𝚁𝙳𝙴 𝚀𝚄𝙴 𝙿𝚄𝙴𝙳𝙴 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙲𝚄𝙰𝙽𝙳𝙾 𝚃𝙴𝙽𝙶𝙰 𝙰𝙻𝙶𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙴𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾",
-            "texto2": "*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*"
-        },
         "herramientas_chatgpt": {
             "texto1": [
                 "*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽𝙰 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽 𝙾 𝚄𝙽𝙰 𝙾𝚁𝙳𝙴𝙽 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 𝙳𝙴 𝙲𝙷𝙰𝚃𝙶𝙿𝚃*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾𝚂 𝙳𝙴 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽𝙴𝚂 𝚈 𝙾𝚁𝙳𝙴𝙽𝙴𝚂*\n*◉",
@@ -2429,15 +2419,6 @@
             "texto2": "Actuaras como un Bot de WhatsApp el cual fue creado por BrunoSobrino, tu seras The Mystic - Bot.",
             "texto3": "Actuaras como un Bot de WhatsApp el cual fue creado por BrunoSobrino, tu seras The Mystic - Bot.",
             "texto4": "*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*"
-        },
-        "herramientas_chatgptvoz": {
-            "texto1": [
-                "*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽𝙰 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽 𝙾 𝚄𝙽𝙰 𝙾𝚁𝙳𝙴𝙽 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 𝙳𝙴 𝙲𝙷𝙰𝚃𝙶𝙿𝚃*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾𝚂 𝙳𝙴 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽𝙴𝚂 𝚈 𝙾𝚁𝙳𝙴𝙽𝙴𝚂*\n*◉",
-                " Reflexion sobre la serie Merlina 2022 de netflix*\n*◉",
-                "Codigo en JS para un juego de cartas*"
-            ],
-            "texto2": "Actuaras como un Bot de WhatsApp el cual fue creado por BrunoSobrino, tu seras The Mystic - Bot.",
-            "texto3": "*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*"
         },
         "herramientas_clima": {
             "texto1": "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝙲𝚁𝙸𝙱𝙰 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚂𝚄 𝙿𝙰𝙸𝚂 𝙾 𝙲𝙸𝚄𝙳𝙰𝙳*",
@@ -2452,21 +2433,6 @@
                 "「 🌬️ 」 𝚅𝙸𝙴𝙽𝚃𝙾:"
             ],
             "texto3": "*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾 𝚂𝙴 𝙷𝙰𝙽 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝙳𝙾 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂, 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙷𝙰𝚈𝙰 𝙴𝚂𝙲𝚁𝙸𝚃𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝚂𝚄 𝙿𝙰𝙸𝚂 𝙾 𝙲𝙸𝚄𝙳𝙰𝙳*"
-        },
-        "herramientas_dalle": {
-            "texto1": [
-                "*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝚃𝙴𝚇𝚃𝙾 𝙿𝙰𝚁𝙰 𝙲𝚁𝙴𝙰𝚁 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚈 𝙰𝚂𝙸 𝚄𝚂𝙰𝚁 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 𝙳𝙴 𝙳𝙰𝙻𝙻-𝙴*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾𝚂 𝙳𝙴 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽𝙴𝚂*\n*◉",
-                "gatitos llorando*\n*◉",
-                "hatsune miku beso*"
-            ],
-            "texto2": "*[❗] Realizando imagen, aguarde un momento.*",
-            "texto3": [
-                "'[❗] Error en la api numero 1 de dall-e.'",
-                "[❗] Error en la api numero 2 de dall-e.",
-                "[❗] Error en la api numero 3 de dall-e.",
-                "[❗] Error, ninguna api funcional.",
-                "*[❗] Error, no se obtuvierón resultados.*"
-            ]
         },
         "herramientas_dropmail": {
             "texto1": [
@@ -3478,15 +3444,15 @@
             ],
             "texto2": [
                 "*< TABLA DE LOS AVENTUREROS MÁS DESTACADOS />*",
-                "—◉ *TOP",
-                "EXP 🌟*",
+                "—◉ *TOP", 
                 "*👤 Tú posición:*",
                 "de",
                 "exp*",
                 "diamantes*",
-                "*nivel",
-                "—◉ *TOP ${len} DIAMANTES 💎*",
-                "—◉ *TOP ${len} NIVEL 🎚️*"
+                "nivel*",
+                "EXP 🌟*",
+                "DIAMANTES 💎*",
+                "NIVEL🎚️*"
             ]
         },
         "rpg_levelup": {

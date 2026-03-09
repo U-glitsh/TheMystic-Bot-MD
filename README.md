@@ -1,6 +1,7 @@
 <p align="center">
  <img width="180px" src="https://i.ibb.co/Qn1W6cP/image.png" align="center"/>
  <h2 align="center">TheMystic-Bot-MD</h2>
+ <p align="center">DEPRECATED | PROYECTO DESACTUALIZADO.</p>
  <p align="center">Un bot para la plataforma de WhatsApp automatizado, basado especialmente en Node.js, que permite realizar múltiples funciones y personalizaciones en la plataforma.</p>
 </p>
 
@@ -45,7 +46,6 @@
 - [Opciones de Despliegue](#opciones-de-despliegue)
   - [Despliegue en Cafirexos](#despliegue-en-cafirexos)
   - [Despliegue en BoxMineWorld](#despliegue-en-boxmineworld)
-  - [Despliegue en SkyUltraPlus](#despliegue-en-skyultraplus)
   - [Despliegue en Otros](#despliegue-en-otros)
 - [Soporte y Comunidad](#soporte-y-comunidad)
   - [Comunidades de Ayuda](#guía-de-uso)
@@ -75,19 +75,15 @@
 <details>
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-- [Sitio web](https://cafirexos.com)
+- [Sitio web](https://cafirexos.com/)
 - [Área de clientes](https://cafirexos.com/clientarea.php)
 - [Panel de control](https://panel.cafirexos.com)
 - [Base de conocimientos](https://cafirexos.com/knowledgebase)
 - [Estado de los servicios](https://estado.cafirexos.com)
-- [Canal de WhatsApp](https://cafirexos.com/whatsapp/canal)
-- [Comunidad de WhatsApp](https://cafirexos.com/whatsapp/comunidad)
-- [Soporte](https://cafirexos.com/submitticket.php)
+- [Canal de WhatsApp](https://links.cafirexos.com/whatsapp/canal)
+- [Soporte](https://cafirexos.com/contactenos)
 
 </details>
-
-> [!IMPORTANT]\
-> El registro de usuarios solo es posible al comprar uno de nuestros productos en la [tienda](https://cafirexos.com/store).
 
 ## Despliegue en BoxMineWorld
 
@@ -103,27 +99,6 @@
 - **Panel de Control:** [panel.boxmineworld.com](https://panel.boxmineworld.com)
 - **Documentación:** [docs.boxmineworld.com](https://docs.boxmineworld.com)
 - **Comunidad de Discord:** [¡Únete aquí!](https://discord.gg/84qsr4v)
-
-</details>
-
-## Despliegue en SkyUltraPlus
-
-<a href="https://skyultraplus.com">
-  <img width="180px" src="https://qu.ax/dYZxE.jpg"/>
-</a>
-
-<details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
-
-- **Pagina Oficial:** [`aqui`](https://skyultraplus.com)
-- **Tutorial:** [Aquí](https://youtube.com/@Sky-Ultra-Plus)
-- **Dashboard:** [Aquí](https://dash.skyultraplus.com)
-- **Panel:** [Aquí](https://panel.skyultraplus.com)
-- **Estado de servicios:** [Aquí](https://estado.skyultraplus.com)
-- **Canal de WhatsApp:** [Aquí](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
-- **Comunidad:** [Aquí](https://chat.whatsapp.com/E6iWpvGuJ8zJNPbN3zOr0D)
-- **Contacto(s):** [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
-- **Discord:** [SkyUltraPlus](https://discord.gg/Ph4eWsZ8)
 
 </details>
 
@@ -154,9 +129,7 @@ En este espacio podrás encontrar diversas **comunidades de asistencia** donde p
 | Plataforma | Tipo | Idioma | Enlace |
 | --- | --- | --- |--- |
 | WhatsApp | Canal | Español | [¡Únete aquí!](https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y) |
-| WhatsApp | Grupo | Español | [¡Únete aquí!](https://chat.whatsapp.com/Daa3Fe4A9JeFpRI2QtBS4s) |
-| WhatsApp | Group | English | [¡Join here!](https://chat.whatsapp.com/HTatrQokqODKx9eem0CKuY) |
-| WhatsApp | Grupo | Português | [¡Junte-se aqui!](https://chat.whatsapp.com/IqBnWyY0ikZ8BumuvleCzW) |
+| WhatsApp | Grupo | Español | [¡Únete aquí!](https://chat.whatsapp.com/HJnmHGjQG1w3kcgFcuPclo) |
 
 </table>
 
